@@ -1,0 +1,20 @@
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    background: #E9EDF1;
+    height: 37px !important;
+    font-size: 12px !important;
+    border-bottom: #C8C8C8 solid 2px;
+}
+
+.fa-code{
+    color: green;
+    font-weight: bold;
+    padding: 5px 8px;
+    font-size: medium;
+}
+
+a{
+    font-size: 14px;
+}

@@ -1,0 +1,35 @@
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    background: #FFFFFF;
+    height: 31px !important;
+    font-size: 12px !important;
+    border-bottom: #C8C8C8 solid 2px;
+}
+
+a{
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.bar-btn{
+    height: 29px !important;
+    width: 40px !important;
+    padding-right: 2px;
+    border: none;
+    background: none;
+}
+
+.bar-btn:hover{
+    background-color: #E9EDF1;
+}
+
+.disabled{
+    color: grey !important;
+}
+
+.disabled:hover{
+    background: none !important;
+    cursor: auto;
+}

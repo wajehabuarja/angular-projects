@@ -1,0 +1,87 @@
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    background: #E9EDF1;
+    height: 33px !important;
+    font-size: 12px !important;
+    border-bottom: #C8C8C8 solid 2px;
+}
+
+a {
+    font-size: 15px;
+}
+
+.disabled {
+    opacity: 50%;
+}
+
+.disabled:hover {
+    background: none !important;
+    cursor: auto;
+}
+
+.icon-btn {
+    height: 27px !important;
+    margin-top: 0px;
+    border: none;
+    background: none;
+}
+
+.icon-btn:hover {
+    background-color: blue;
+}
+
+.opacity-50 {
+    opacity: 50%;
+    color: black;
+}
+
+
+.fa-plus {
+    color: green;
+}
+
+.fa-repeat {
+    color: black;
+}
+
+.fa-save {
+    color: purple;
+}
+
+.fa-list {
+    color: black;
+}
+
+.fa-code {
+    color: darkgreen;
+}
+
+.fa-laptop-code {
+    color: blue;
+}
+
+.fa-minus-circle {
+    color: black;
+}
+
+.fa-play {
+    color: green;
+}
+
+.fa-redo-alt {
+    color: lightgreen;
+}
+
+.fa-stop-circle {
+    color: red;
+}
+
+.fa-stop {
+    color: red;
+}
+
+.fa-yin-yang {
+    color: lightgreen;
+}

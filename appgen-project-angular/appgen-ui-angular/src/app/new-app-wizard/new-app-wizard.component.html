@@ -1,0 +1,35 @@
+<p class="header-plus-dialog">new-app-wizard works!</p>
+<div class="row">
+    <div class="col-12">
+        <mat-tab-group [selectedIndex]="selected.value" (selectedIndexChange)="selected.setValue($event)"
+            [(selectedIndex)]="demo1TabIndex">
+            <mat-tab label="Main">
+                <form class="styl-form">
+                    <div id="user-data" ngModelGroup="userData" #userdata="ngModelGroup">
+                        <label for="name">Name *</label><br>
+                        <input type="text" id="name" name="name" placeholder="Name" [(ngModel)]="name" [required]=""
+                            value="{{ name }}"><br><br>
+                        <label for="organization">Organization</label><br>
+                        <input type="text" id="organization" name="organization" placeholder="Organization"><br><br>
+                        <label for="multi-module">Multi Module</label>
+                        <input type="checkbox" class="chck-bx form-check-input" name="multi-module">
+                    </div>
+
+                </form>
+            </mat-tab>
+            <mat-tab label="Code Generation">content 2 </mat-tab>
+            <mat-tab label="Version Control">content 3 </mat-tab>
+            <mat-tab label="Database Connections">content 4 </mat-tab>
+            <mat-tab label="Team"> Content 5 </mat-tab>
+            <mat-tab label="Theme"> Content 6 </mat-tab>
+
+        </mat-tab-group>
+        <div class="footer-plus-dialog">
+            <button class="btn btn-primary px-1" id="btn-back" mat-raised-button (click)="back()"
+                [disabled]="demo1TabIndex == 0">Back</button>
+            <button class="btn btn-primary" type="submit" id="btn-next" mat-raised-button (click)="next()"
+                [disabled]="demo1TabIndex == 5">Next</button>
+        </div>
+
+    </div>
+</div>

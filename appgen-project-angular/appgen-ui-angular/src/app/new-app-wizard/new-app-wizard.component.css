@@ -1,0 +1,110 @@
+:host /deep/ .mat-tab-group {
+    flex-direction: row;
+}
+
+:host /deep/ .mat-tab-header {
+    border-bottom: none;
+}
+
+:host /deep/ .mat-tab-header-pagination {
+    display: none !important;
+}
+
+:host /deep/ .mat-tab-labels {
+    padding-bottom: 300px !important;
+
+    flex-direction: column;
+    background-color: #B7B7B7 !important;
+}
+
+:host /deep/ .mat-tab-label {
+    background-color: white !important;
+    margin: 2px;
+    text-align: left;
+    height: 30px;
+}
+
+:host /deep/ .mat-tab-label:active {
+    background-color: red !important;
+}
+
+:host /deep/ .mat-ink-bar {
+    height: 100%;
+
+    left: 98% !important;
+}
+
+:host /deep/ .mat-tab-body-wrapper {
+    flex: 1 1 auto;
+    padding-left: 20px !important;
+}
+
+:host /deep/ .mat-tab-list {
+    background-color: #B7B7B7 !important;
+}
+
+:host /deep/ .mat-tab-body  {
+    background-color: white !important;
+    padding-top: 10px;
+}
+
+.header-plus-dialog {
+    background-color: #E8E8E8;
+    height: 35px;
+    width: 105%;
+    background-color: #E8E8E8;
+    /* margin-right: -8px; */
+    margin: 0px;
+    /* padding-right: 39px; */
+    margin-right: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    margin-left: -21px;
+    margin-top: -24px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+}
+
+.footer-plus-dialog {
+    height: 35px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    text-align: right;
+    margin-top: 0px;
+}
+
+:host /deep/ .mat-tab-body-content {
+    width: 600px !important;
+}
+
+:host /deep/ .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background: none !important;
+}
+
+:host /deep/ .mat-tab-group{
+    border: 1px solid grey;
+}
+
+#btn-back{
+    margin: 2px;
+    height: 30px;
+    font-size: 12px;
+}
+
+#btn-next{
+    margin: 2px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.chck-bx {
+    top: 175px;
+    /* height: 62px; */
+    width: 20px;
+    height: 40px;
+    left: 23px;
+}
+
+.ng-untouched {}

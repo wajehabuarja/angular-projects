@@ -1,0 +1,23 @@
+.side-header{
+    display: flex;
+    flex-direction: row;
+    background-color: #D0D0D0;
+    width: 100%;
+    background-color: #E8E8E8;
+    top: 0 !important;
+    padding: 4px !important;
+    margin: 0 !important;
+    text-align: left;
+    font-size: 13px !important;
+    height: 25px;
+    /* margin-left: 3px !important; */
+}
+
+.side-content{
+    height: auto;
+    min-height: 750px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin-left: 3px !important;
+    margin-top: 0px !important;
+}
